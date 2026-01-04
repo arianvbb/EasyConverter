@@ -6,7 +6,7 @@ A simple GUI made with TKinter for converting essential units in different areas
 - **Button**: A button on each page configured to run a code that checks the input and the unit selected then print the result.
 - **Dropdown**: A dropdown to be able to easily select between available units.
 
-### This project was made entirely in Python using the TKinter library.
+##### This project was made entirely in Python using the TKinter library.
 
 ## 🤔The Process 
 I started searching up the documentation for the TKinter library and using basic features like editing the title of the root (window) and dimensions. After began experimentation, started with text, then buttons, having the buttons do things, etc. It was all time-consuming as I had no previous experience in GUIs nor using TKinter.
