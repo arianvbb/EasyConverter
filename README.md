@@ -29,3 +29,5 @@ This is also the first time I genuinly realised the importance of writing clean,
 2. Using an editor and Python installed you can simply run the program and it should run fine.
 
 ## 🍿Video
+https://github.com/user-attachments/assets/1984d6ab-7ea6-4594-b94b-8ba4dcb4fd25
+
