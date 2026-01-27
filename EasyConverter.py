@@ -50,8 +50,6 @@ def temp_calculation():
         Kelvin = Celcius + 273.15
         results = tk.Label(Temp, text = f"You have {Celcius:.1f} Celcius and {Kelvin:.1f} Kelvin", font = ('Arial, 10'))
         results.grid(row = 2, column = 0, columnspan = 4, padx = 0, pady = 0)
-    else: 
-        print("You have an error")
 
 Temp_Options = [
     "Kelvin",
@@ -128,8 +126,6 @@ def mass_calculation():
         Ounce = Pound * 16
         results = tk.Label(Mass, text = f"You have {Gram:.1f} Grams, {Milligram:.1f} Milligrams, {Tonne:.1f} Tonnes, {Pound:.1f} Pounds and {Kilogram:.1f} Kilograms", font = ('Arial, 10'))
         results.grid(row = 2, column = 0, columnspan = 4, padx = 0, pady = 0)
-    else: 
-        print("You have an error")
 
 Mass_Options = [
     "Kilogram",
@@ -185,8 +181,6 @@ def power_calculation():
         MW = Watt / 1000000
         results = tk.Label(Power, text = f"You have {Watt:.1f} Watt, {kW:.1f} kW and {MW:.1f} MW", font = ('Arial, 10'))
         results.grid(row = 2, column = 0, columnspan = 4, padx = 0, pady = 0)
-    else: 
-        print("You have an error")
 
 Power_Options = [
     "Watt",
@@ -243,8 +237,6 @@ def energy_calculation():
 
         results = tk.Label(Energy, text = f"You have {Joule:.1f} Joule, {kWh:.1f} kWh and {eV:.1f} eV", font = ('Arial, 10'))
         results.grid(row = 2, column = 0, columnspan = 4, padx = 0, pady = 0)
-    else: 
-        print("You have an error")
 
 Energy_Options = [
     "Joule",
@@ -261,6 +253,7 @@ Energy_dropdown.bind("<<ComboboxSelected>>", on_select)
 
 Energy_Convert = tk.Button(Energy, text = "Convert", font = ('Arial', 14), command = energy_calculation)
 Energy_Convert.grid(row = 1, column = 3, padx = 50, pady = 0, sticky = "w")
+
 
 
 
